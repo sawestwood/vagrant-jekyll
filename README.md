@@ -1,8 +1,8 @@
 # vagrant-jekyll
 
 This creates a [Vagrant](https://www.vagrantup.com) VM for use im Jekyll development. The VM is based upon [Ubuntu Xenial 64-bit 16.04](https://app.vagrantup.com/ubuntu/boxes/xenial64) and:
-* Installs [RVM](https://rvm.io/)
-* Sets up RVM to install and use Ruby 2.5.0
+* Installs [rbenv](https://github.com/rbenv/rbenv/)
+* Sets up rbenv to use Ruby 2.5.0
 * Installs Bundler and Jekyll gems
 
 Two environment variables are required
